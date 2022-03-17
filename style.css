@@ -184,6 +184,7 @@ text-align: center;
   margin-top: -10px;
 }
 
+
 .collection-img-1{
   width: 11em;
   padding: 10px;
@@ -294,11 +295,12 @@ margin-left: 400px;
 
 .new-book-section{
   background-color: #ffffff;
-  margin-bottom: 10px;
-  margin-right: 10px;
+  margin-bottom: 100px;
+  margin-right: 40px;
   margin-left: 10px;
   width: 100%;
-  padding: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
   
   
   
@@ -328,9 +330,96 @@ margin-left: 400px;
 }
 
 .new-rating-block{
-  margin-left: 60px;
+  margin-left: 100px;
 }
 
+
+.nbc-1{
+
+  margin-left: 20px;
+}
+
+.nbc-2{
+ margin-left: -20px;
+}
+
+.nbc-3{
+
+  margin-left: -20px;
+}
+
+.nbc-4{
+
+  margin-left: -20px;
+}
+
+.nbc-5{
+
+  margin-left: -20px;
+  margin-right: 40px;
+}
+
+
+footer{
+  background-color: #000a47;
+  color: #fff;
+}
+
+.top-footer{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.top-left-footer{
+  display: flex;
+  
+}
+
+.top-left-footer div{
+  display: flex;
+  margin: 0 10px;
+}
+
+.top-right-footer{
+  display: flex;
+}
+
+.footer-logo{
+  width: 70px;
+}
+
+.footer-logo-title{
+  margin-top: 20px ;
+  font-size: 20px;
+  margin-left: -20px;
+  font-weight: 900;
+}
+
+.top-right-footer{
+  margin-top: 14px;
+}
+
+.Footer-btn-1{
+ background-color: white;
+ color: black;
+ height: 39px;
+}
+
+.Footer-btn-2{
+  background-color: #9E58D9;
+  color: black;
+  height: 39px;
+  margin-left: 5px;
+  margin-right: 15px;
+  color: white;
+}
+
+.middle-footer{
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+  
+}
 
 @media only screen 
     and (min-device-width: 320px) 
@@ -480,6 +569,10 @@ margin-left: 400px;
           width: 11em;
           padding: 10px;
           border-radius: 18px;
+          margin-left: 10px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
           
         }
         
@@ -568,7 +661,7 @@ margin-left: 400px;
         }
         
         .See-p{
-        
+         margin-left: 0px !important;
         }
         
         .See-icon{
@@ -587,7 +680,7 @@ margin-left: 400px;
           margin-right: 20px;
           margin-left: 20px;
           width: 100%;
-          padding: 0;
+          padding-bottom: 100px;
           
           
           
@@ -620,7 +713,89 @@ margin-left: 400px;
         }
         
         .new-rating-block{
-           margin-left: 125px; 
+           margin-left: 85px; 
+        }
+
+        .nbc-1{
+
+          margin-left: -20px;
+        }
+        
+        .nbc-2{
+         margin-left: -20px;
+        }
+        
+        .nbc-3{
+        
+          margin-left: -20px;
+        }
+        
+        .nbc-4{
+        
+          margin-left: -20px;
+        }
+        
+        .nbc-5{
+        
+          margin-left: -20px;
+          margin-right: 0;
+        }
+        
+        
+        footer{
+          background-color: #000a47;
+          color: #fff;
+        }
+        
+        .top-footer{
+          display: flex;
+          justify-content: space-between;
+        
+        }
+        
+        .top-left-footer{
+          display: flex;
+          flex-wrap: wrap;
+          
+        }
+        
+        .top-left-footer div{
+          display: flex;
+          margin: 0 10px;
+        }
+        
+        .top-right-footer{
+          display: flex;
+        }
+        
+        .footer-logo{
+          width: 70px;
+        }
+        
+        .footer-logo-title{
+          margin-top: 27px;
+          font-size: 13px;
+          margin-left: -20px;
+          
+        }
+        
+        .top-right-footer{
+          margin-top: 14px;
+        }
+        
+        .Footer-btn-1{
+         background-color: white;
+         color: black;
+         height: 39px;
+        }
+        
+        .Footer-btn-2{
+          background-color: #9E58D9;
+          color: black;
+          height: 39px;
+          margin-left: 5px;
+          margin-right: 15px;
+          color: white;
         }
     
     
