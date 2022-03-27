@@ -257,10 +257,12 @@ margin: 6em 0;
 }
 
 .new-in-box{
+  padding-top: 6em;
   margin-top: 10em;
   background-color: #F5F4F2;
   margin-left: 20px ;
   margin-right: 20px ;
+  margin-bottom: 5em;
 }
 
 
@@ -305,6 +307,8 @@ margin-left: 400px;
   
   
 }
+
+
 
 .new-book-title{
 
@@ -418,6 +422,7 @@ footer{
 .middle-footer{
   display: grid;
   grid-template-columns: 1fr 2fr ;
+  padding: 0 2em;
   
 }
 
