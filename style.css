@@ -1,3 +1,9 @@
+footer{
+  margin-bottom: -101px;
+}
+
+
+
 .row{
   margin-right: 0;
   margin-left: 0;
@@ -372,6 +378,7 @@ footer{
 .top-footer{
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
 
 }
 
@@ -387,6 +394,7 @@ footer{
 
 .top-right-footer{
   display: flex;
+
 }
 
 .footer-logo{
@@ -407,7 +415,8 @@ footer{
 .Footer-btn-1{
  background-color: white;
  color: black;
- height: 39px;
+ height: 38px;
+ width: 110px;
 }
 
 .Footer-btn-2{
@@ -417,6 +426,8 @@ footer{
   margin-left: 5px;
   margin-right: 15px;
   color: white;
+  height: 38px;
+  width: 110px;
 }
 
 .middle-footer{
@@ -425,6 +436,523 @@ footer{
   padding: 0 2em;
   
 }
+
+.footer-social{
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  
+}
+
+
+
+.footer-social-btn{
+  width: 3em;
+  padding-right: 5px;
+  
+}
+
+.Footer-address{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.footer-navbox{
+  display: flex;
+  justify-content: start;
+}
+
+.footer-navboxes{
+  padding-right: 8em;
+}
+
+.bottom-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.bottom-policy{
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-policy p{
+padding: 0 20px;
+}
+
+.scroll-up-box{
+  display: flex;
+}
+
+.scroll-up-icon{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+/* Start of Tablet sizing */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+     
+    
+    
+    
+    .tcenter{
+      text-align: center;
+      }
+      
+      .flex{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      
+      .flex-left{
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+      }
+      
+      
+      
+      .navbar-nav{
+        margin-left: 75%;
+      }
+      
+      .nav-btns{
+        margin-left: 20%;
+      }
+      
+      .nav-btn-2{
+        margin-left: 10px;
+      }
+      
+      
+      
+      
+      #mainNav {
+        min-height: 3.5rem;
+        background-color: #fff;
+      }
+      #mainNav .navbar-toggler {
+        font-size: 80%;
+        padding: 0.75rem;
+        color: #64a19d;
+        border: 1px solid #64a19d;
+      }
+      #mainNav .navbar-toggler:focus {
+        outline: none;
+      }
+      #mainNav .navbar-brand {
+        color: #000;
+        font-weight: 700;
+        padding: 0.9rem 0;
+      }
+      #mainNav .navbar-nav .nav-item:hover {
+        color: fade(#fff, 80%);
+        outline: none;
+        background-color: transparent;
+      }
+      #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+        outline: none;
+        background-color: transparent;
+      }
+     
+ 
+      
+      
+      
+      
+      .jumbo-box{
+        width: 100%;
+        height: 700px;
+        background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(books-2.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+         opacity: 2;
+      }
+      
+      .jumbo-title{
+        font-size: 60px;
+        color: white;
+        padding-top: 200px;
+      }
+      
+      .jumbo-subtitle{
+        color: white;
+        font-size: 20px;
+        margin-top: -20px;
+      }
+      
+      
+      
+      .jumbo-btn{
+       background-color: #4056a1;
+       color: white;
+       font-size: 30px;
+       margin-top: 80px;
+       margin-bottom: 80px;
+       border-radius: 20px;
+       padding: 15px;
+       border: 2px solid white;
+      }
+      
+      
+      
+      
+      .collection-section{
+        background-color: #ffffff;
+      }
+      
+      .collection-box{
+        background-color: #F8F8FA;
+        margin: 40px 0;
+        padding: 10px 0;
+        border-radius: 10px;
+        height: auto;
+        display: block;
+      
+      }
+      
+      .collection-text{
+        padding-left: 10px;
+      }
+      
+      .collection-title{
+       font-size: 27px;
+       line-height: 26px;
+       padding-top: 17px;
+      }
+      
+      .collection-subtitle{
+        font-size: 14px;
+        color: #B0B1B6;
+        margin-top: -10px;
+      }
+      
+      .collection-img-1{
+        width: 11em;
+        padding: 10px;
+        border-radius: 18px;
+        margin-left: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+      }
+      
+      
+      
+      .best-books-section{
+      margin: 6em 0;
+      }
+      
+      .best-books-heading{
+        font-size: 4em;
+        margin-left: 10px;
+        margin-bottom: 20px;
+      }
+      
+      .best-books-subtitle{
+        font-size: 1em;
+        margin-left: 10px;
+      }
+      
+      .best-books-container{
+        padding: 0 0;
+        margin-top: 100px;
+      }
+      
+      .best-books-img{
+        width: 140px;
+        height: 180px;
+        border-radius: 3%;
+      }
+      
+      .best-books-title{
+        font-size: 22px;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+        color: #000746;
+      
+      }
+      
+      .best-books-cart{
+        background-color: #9E59DA;
+        border-radius: 1% ;
+        width: 150px;
+        color: white;
+      }
+      
+      .best-books-rating-img{
+        width: 25px;
+      
+      }
+      
+      
+      /* Rating */
+      .star-img{
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+      }
+      
+      .rating-number{
+        margin-bottom: 0;
+          margin-top: 12px;
+          margin-left: 5px;
+          font-size: 18px;
+      }
+      
+      .new-in-box{
+        margin-top: 10em;
+        background-color: #F5F4F2;
+      }
+      
+      .new-text{
+        margin-left: 0;
+        font-size: 4em;
+      }
+      
+      .new-top-text{
+        margin-bottom: 30px;
+        
+      }
+      
+      .see-product-box{
+        display: flex;
+        margin-top: 50px;
+      }
+      
+      .See-p{
+       margin-left: 0px !important;
+      }
+      
+      .See-icon{
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+      
+      /* .new-books-box{
+        padding: 0 15em;
+        
+      } */
+      
+      .new-book-section{
+        background-color: #ffffff;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 100%;
+        padding-bottom: 100px;
+        
+        
+        
+      }
+      
+      .new-book-title{
+      
+      }
+      
+      .new-books-pre-order-btn{
+        background-color: #5A59D8;
+        color: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 20px ;
+        width: 100px;
+        
+        
+      }
+      
+      .new-img{
+        width: 150px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 7px ;
+      }
+      
+      .new-rating-block{
+         margin-right: auto;
+         margin-left: auto; 
+      }
+
+      .nbc-1{
+
+        margin-left: -20px;
+      }
+      
+      .nbc-2{
+       margin-left: -20px;
+      }
+      
+      .nbc-3{
+      
+        margin-left: -20px;
+      }
+      
+      .nbc-4{
+      
+        margin-left: -20px;
+      }
+      
+      .nbc-5{
+      
+        margin-left: -20px;
+        margin-right: 0;
+      }
+      
+      
+      footer{
+        background-color: #000a47;
+        color: #fff;
+      }
+      
+      .top-footer{
+        display: flex;
+        justify-content: space-between;
+      
+      }
+      
+      .top-left-footer{
+        display: flex;
+        flex-wrap: wrap;
+        
+      }
+      
+      .top-left-footer div{
+        display: flex;
+        margin: 0 10px;
+      }
+      
+      .top-right-footer{
+        display: block;
+      }
+
+      .footer-social-btn{
+        width: 5em;
+        padding-right: 12px;
+        
+      }
+      
+      .footer-logo{
+        width: 70px;
+      }
+      
+      .footer-logo-title{
+        margin-top: 10px;
+        font-size: 13px;
+        margin-left: 0px;
+        
+      }
+      
+      .top-right-footer{
+        margin-top: 14px;
+        margin-left: 20%;
+      }
+      
+      .Footer-btn-1{
+       background-color: white;
+       color: black;
+       height: 30px;
+      
+      }
+      
+      .Footer-btn-2{
+        background-color: #9E58D9;
+        color: black;
+        height: 39px;
+        margin-left: 0px;
+        margin-right: 0px;
+        color: white;
+        margin-top: 10px;
+      }
+
+      .Footer-address{
+        text-align: center;
+        font-size: 1em;
+      }
+
+
+  
+      .footer-navbox{
+        display: flex;
+        justify-content: center;
+        
+      }
+
+      .footer-navboxes{
+        padding-right: 0;
+        padding: 20px 0;
+      }
+
+      .footer-navboxes p{
+        font-size: 17px;
+        padding: 0 15px;
+      }
+
+
+
+      .middle-footer{
+        display: block;
+        padding: 0px 0em;
+        }
+        
+        .footer-social{
+          display: flex;
+          margin-top: 20px;
+          margin-bottom: 40px;
+          margin-left: 10px;
+          justify-content: center;
+          
+        }
+
+        .footer-logo-title{
+          margin-left: 10px;
+        }
+  
+      .bottom-footer{
+        display: block;
+        padding: 0 10px;
+      }
+
+      .bottom-footer-title{
+        text-align: center;
+        padding: 15px 0 ;
+      }
+
+      .bottom-policy p {
+        padding: 0 0px;
+        font-size: 13px;
+    }
+
+    .scroll-up-box{
+      display: flex;
+      
+      margin-top: 60px;
+    }
+  
+  
+  
+  }
+
 
 
 
@@ -609,6 +1137,7 @@ footer{
           width: 140px;
           height: 180px;
           border-radius: 3%;
+          margin-top: 20px;
         }
         
         .best-books-title{
@@ -772,7 +1301,13 @@ footer{
         }
         
         .top-right-footer{
-          display: flex;
+          display: block;
+        }
+
+        .footer-social-btn{
+          width: 5em;
+          padding-right: 12px;
+          
         }
         
         .footer-logo{
@@ -780,33 +1315,95 @@ footer{
         }
         
         .footer-logo-title{
-          margin-top: 27px;
+          margin-top: 10px;
           font-size: 13px;
-          margin-left: -20px;
+          margin-left: 0px;
           
         }
         
         .top-right-footer{
           margin-top: 14px;
+          margin-left: 20%;
         }
         
         .Footer-btn-1{
          background-color: white;
          color: black;
-         height: 39px;
+         height: 30px;
+        
         }
         
         .Footer-btn-2{
           background-color: #9E58D9;
           color: black;
           height: 39px;
-          margin-left: 5px;
-          margin-right: 15px;
+          margin-left: 0px;
+          margin-right: 0px;
           color: white;
+          margin-top: 10px;
         }
+
+        .Footer-address{
+          text-align: center;
+          font-size: 1em;
+        }
+
+
     
+        .footer-navbox{
+          display: flex;
+          
+        }
+
+        .footer-navboxes{
+          padding-right: 0;
+        }
+
+        .footer-navboxes p{
+          font-size: 11px;
+          padding: 0 15px;
+        }
+
+
+
+        .middle-footer{
+          display: block;
+          padding: 0px 0em;
+          }
+          
+          .footer-social{
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            margin-left: 10px;
+            justify-content: center;
+            
+          }
+
+          .footer-logo-title{
+            margin-left: 10px;
+          }
     
-    
+        .bottom-footer{
+          display: block;
+          padding: 0 10px;
+        }
+
+        .bottom-footer-title{
+          text-align: center;
+          padding: 15px 0 ;
+        }
+
+        .bottom-policy p {
+          padding: 0 0px;
+          font-size: 13px;
+      }
+
+      .scroll-up-box{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
     
     
     
