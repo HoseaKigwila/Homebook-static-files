@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
 footer{
   margin-bottom: -101px;
 }
@@ -519,7 +527,7 @@ padding: 0 20px;
       
       .flex-left{
         display: flex;
-        justify-content: left;
+        justify-content: center;
         flex-wrap: wrap;
       }
       
@@ -631,7 +639,7 @@ padding: 0 20px;
       }
       
       .collection-title{
-       font-size: 27px;
+       font-size: 30px;
        line-height: 26px;
        padding-top: 17px;
       }
